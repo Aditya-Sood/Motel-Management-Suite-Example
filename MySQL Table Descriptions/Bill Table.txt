@@ -1,0 +1,6 @@
+create table bill
+(Bill_Id      varchar(5)    Primary Key,
+ Room           float      ,
+ Restaurant     float      ,
+ Miscellaneous  float      ,
+ Remarks      varchar(40)    );

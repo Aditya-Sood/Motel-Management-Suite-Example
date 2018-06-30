@@ -1,0 +1,5 @@
+create table additional_charges
+(Service_Charges     float    Not Null,
+ VAT                        float    Not Null);
+
+insert into additional_charges values(10,8);

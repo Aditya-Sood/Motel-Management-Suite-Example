@@ -1,0 +1,39 @@
+create table room
+(Room_No       char(5)      Primary Key,
+ Class           varchar(15)    Not Null,
+ Status          varchar(5)     Not Null,
+ Charges          int(5)         Not Null);
+
+insert into room values('SL001', 'Silver', 'N', 1500);
+insert into room values('SL002', 'Silver', 'N', 1500);
+insert into room values('SL003', 'Silver', 'N', 1500);
+insert into room values('SL004', 'Silver', 'N', 1500);
+insert into room values('SL005', 'Silver', 'N', 1500);
+insert into room values('SL006', 'Silver', 'N', 1500);
+insert into room values('SL007', 'Silver', 'N', 1500);
+insert into room values('SL008', 'Silver', 'N', 1500);
+insert into room values('SL009', 'Silver', 'N', 1500);
+insert into room values('SL010', 'Silver', 'N', 1500);
+
+
+insert into room values('GD001', 'Gold', 'N', 2500);
+insert into room values('GD002', 'Gold', 'N' , 2500);
+insert into room values('GD003', 'Gold', 'N', 2500);
+insert into room values('GD004', 'Gold', 'N', 2500);
+insert into room values('GD005', 'Gold', 'N', 2500);
+insert into room values('GD006', 'Gold', 'N', 2500);
+insert into room values('GD007', 'Gold', 'N', 2500);
+insert into room values('GD008', 'Gold', 'N', 2500);
+insert into room values('GD009', 'Gold', 'N', 2500);
+insert into room values('GD010', 'Gold', 'N', 2500);
+
+insert into room values('PT001', 'Platinum', 'N', 3500);
+insert into room values('PT002', 'Platinum', 'N', 3500);
+insert into room values('PT003', 'Platinum', 'N', 3500);
+insert into room values('PT004', 'Platinum', 'N', 3500);
+insert into room values('PT005', 'Platinum', 'N', 3500);
+insert into room values('PT006', 'Platinum', 'N', 3500);
+insert into room values('PT007', 'Platinum', 'N', 3500);
+insert into room values('PT008', 'Platinum', 'N', 3500);
+insert into room values('PT009', 'Platinum', 'N', 3500);
+insert into room values('PT010', 'Platinum', 'N', 3500);

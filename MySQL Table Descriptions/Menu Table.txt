@@ -1,0 +1,29 @@
+create table Menu
+(Item_No                 int(5)         Primary Key,
+ Item_Name       varchar(30)       Not Null,
+ Category            varchar(15)       Not Null,
+ Cost                         int(4)           Not Null);
+
+insert into Menu values(1,'Soft Drink','Beverage',20);
+insert into Menu values(2,'Coffee','Beverage',15);
+insert into Menu values(3,'Tea','Beverage',10);
+insert into Menu values(4,'Soup','Beverage',25);
+insert into Menu values(5,'Lassi','Beverage',20);
+
+
+insert into Menu values(6,'Rice','Main Course',75);
+insert into Menu values(7,'Naan','Main Course',30);
+insert into Menu values(8,'Shahi Paneer','Main Course',120);
+insert into Menu values(9,'Palak Paneer','Main Course',100);
+insert into Menu values(10,'Dal Makhani','Main Course',100);
+insert into Menu values(11,'Yellow Dal Fry','Main Course',90);
+insert into Menu values(12,'Kadhai Chicken','Main Course',150);
+insert into Menu values(13,'Butter Chicken','Main Course',170);
+insert into Menu values(14,'Mutton-Curry','Main Course',180);
+insert into Menu values(15,'Pineapple Raita','Main Course',50);
+
+insert into Menu values(16,'Ice Cream','Dessert',30);
+insert into Menu values(17,'Moong Dal Halwa','Dessert',50);
+insert into Menu values(18,'Kulfi-Falooda','Dessert',45);
+insert into Menu values(19,'Daulat ki Chaat','Dessert',70);
+insert into Menu values(20,'Jalebi & Rabri','Dessert',50);
